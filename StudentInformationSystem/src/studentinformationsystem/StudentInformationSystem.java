@@ -15,8 +15,8 @@ public class StudentInformationSystem {
      */
     public static void main(String[] args) {
         
-        
- 
+        System.out.println("Student's name: Hanan");
+        System.out.println("Student's ID: S88218");
     }
     
 }
