@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package studentinformationsystem;
+
 
 /**
  *
@@ -24,10 +24,10 @@ public class StudentInformationSystem {
          double marks;
         double mark2=45;
         double mark3=50;
-        double mark4=2;
+        double mark1=2;
         
         //calculate the total mark
-        marks= mark2 + mark3 + mark4;
+        marks= mark2 + mark3 + mark1;
                 
                 //display the total
                 System.out.println("Total mark: =" + marks );
@@ -36,9 +36,12 @@ public class StudentInformationSystem {
                         System.out.println("Needs Improvement");
                 if (marks < 80)
                     System.out.println("Good");
+                if (marks < 90)
+                    System.out.println("Very Good");
                 else 
                    System.out.println("Excellent");
                 
     }
     
 }
+
