@@ -24,9 +24,10 @@ public class StudentInformationSystem {
          double marks;
         double mark2=45;
         double mark3=50;
+        double mark4=2;
         
         //calculate the total mark
-        marks= mark2 + mark3;
+        marks= mark2 + mark3 + mark4;
                 
                 //display the total
                 System.out.println("Total mark: =" + marks );
